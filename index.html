@@ -1,0 +1,52 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <!-- Reemplazar por los datos que correspondan -->
+        <title>Programación I | Parcial 1 | CHAUCA TAPIA, VANESA</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0,user-scalable=no" />
+        <link rel="shortcut icon" href="favicon.ico"/>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles/styles.css" />
+    </head>
+    <body>
+        <header>
+            <h1>Programación I | Parcial 1 | CHAUCA TAPIA, VANESA</h1>
+            <form onsubmit="return false;">
+                <input type="text" id="contadorDiscos" readonly value="Discos cargados: 0"> 
+                <input type="text" id="inputCodigo" placeholder="Codigo#">
+                <button onclick="buscarDisco()">Buscar Disco</button>
+            </form>
+            
+        </header>
+        <main>
+            <div>
+                <h2>Mis discos</h2>
+                <button onclick="cargarDisco();">Cargar nuevo disco</button>
+                <button onclick="mostrarDisco();">Mostrar discos</button>
+                <button onclick="eliminarDiscos();">Eliminar</button>
+                 <div id="contenedorDiscos">
+                       
+                 </div>
+
+            </div>
+            
+            <script src="/scripts/index.js"></script>
+        </main>
+        <footer>
+            <ul>
+                <li>Profesor Fabrizio Carlassara</li>
+                <li>
+                    <a href="mailto:fabrizio.carlassara@davinci.edu.ar?subject=P1%20-%20Consulta%20-%20DW2[M|T|N][A|B]%20-%20Apellido,%20Nombre" target="_blank">fabrizio.carlassara@davinci.edu.ar</a>
+                </li>
+                <li>Programación 1</li>
+                <li>
+                    <!-- Reemplazar por el link del repositorio de GitHub -->
+                    <a href="https://github.com/VanesaChauca/Programacion1-Parcial-1-CHAUCA-TAPIA-VANESA">URL del repo de GitHub</a>
+                </li>
+            </ul>
+        </footer>
+    </body>
+</html>
